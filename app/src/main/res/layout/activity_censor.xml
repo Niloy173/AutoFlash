@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CensorActivity"
+    android:orientation="vertical"
+    android:id="@+id/layout_censor"
+    android:background="@color/black">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Head"
+        android:text="@string/Header"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20sp"/>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="30dp"
+       >
+
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/ligts_off"
+           android:layout_gravity="center"
+           android:contentDescription="FlashEMoji"
+           android:id="@+id/flashlight"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="15dp"
+           android:padding="10dp"
+           android:text="Flash : OFF"
+           android:textSize="18sp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textColor="@color/white"
+           android:fontFamily="sans-serif-black"
+           android:id="@+id/off_mode"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Flash : ON"
+           android:textSize="18sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-black"
+           android:visibility="gone"
+           android:id="@+id/on_mode"/>
+
+<!--       <TextView-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:layout_margin="10dp"-->
+<!--           android:text="000"-->
+<!--           android:textSize="18sp"-->
+<!--           android:gravity="center"-->
+<!--           android:textColor="@color/white"-->
+<!--           android:textStyle="bold"-->
+<!--           android:fontFamily="sans-serif-black"-->
+<!--           android:id="@+id/value"/>-->
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#516551"
+
+            >
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mobile_screen"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Note"
+            android:text="Don't cover the ambient Light Sensor"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>

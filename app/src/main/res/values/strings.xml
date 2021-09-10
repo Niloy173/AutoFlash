@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AutoFLash</string>
+    <string name="Header">Auto Flash</string>
+    <string name="des">Mobile Flash App</string>
+    <string name="wifi_des">Detect the Wifi status and turns the torch on </string>
+    <string name="censor_des">Automatically detect the darkness and turns the torch on</string>
+
+</resources>
