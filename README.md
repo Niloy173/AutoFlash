@@ -4,17 +4,18 @@ This is a useful application which is easily turned on the flashlight to the rea
 
 # Feature
 
-•	Flashlight in Dark
-•	Sensor Detection
-•	Timer settings for Flashlight
-•	Color Screen Flashlight
+* Flashlight in Dark
+* Sensor Detection
+* Timer settings for Flashlight
+* Color Screen Flashlight
 
 
 # With this app you can do –
 
-	Real time control over the Time Limit of Flashlight
-	An approach to generate Auto Flash with Phone Censor
-	Relief from the Darkness while Connecting through the application
+1. Real time control over the Time Limit of Flashlight
+2. An approach to generate Auto Flash with Phone Censor
+3. Relief from the Darkness while Connecting through the application
+
 
 
 # WorkFlow
