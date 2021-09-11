@@ -25,6 +25,7 @@ public class BaseActivity extends AppCompatActivity {
     private CameraManager cameraManager;
     private  String cameraID;
     BroadcastReceiver broadcastReceiver;
+    TextView app_doc;
 
 
 
@@ -34,11 +35,19 @@ public class BaseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_base);
 
         censor = findViewById(R.id.Censor_id);
+        app_doc = findViewById(R.id.about_id);
         wifi = findViewById(R.id.wifi_id);
 
 
 
 
+        app_doc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BaseActivity.this,AppDocument.class);
+                startActivity(intent);
+            }
+        });
 
 
 
