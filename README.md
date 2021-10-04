@@ -26,6 +26,8 @@ Suppose You are home and fixing something in your garage, somehow light’s gone
 
 Yes there is indeed an extra feature while working in your home or office, you might be connected through wifi what you can do is set up the timer from the application as to how much longer you want your flash on It will instantly turn on when the wifi leaves or disconnected in other words there is no current in your place in case if you don’t want the flash you can just turn off the switch
 
+# Check Out
+https://play.google.com/store/apps/details?id=com.teamaspirant.autoflash
 
 Thank You
 
