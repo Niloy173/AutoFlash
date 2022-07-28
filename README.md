@@ -1,6 +1,12 @@
-# AutoFlash
 
-This is a useful application which is easily turned on the flashlight to the rear camera based on some important Events
+<p align="center">
+<h2>AutoFlash - An useful application which is easily turned on the flashlight to the rear camera based on some important Events</h2>
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63700841/181455949-b932052b-7cff-48ba-9423-e4b04a412c09.png" title="cover" />
+</p>
+
 
 # Feature
 
@@ -9,12 +15,20 @@ This is a useful application which is easily turned on the flashlight to the rea
 * Timer settings for Flashlight
 * Color Screen Flashlight
 
+<p align="center">
+  
+  <img src="https://user-images.githubusercontent.com/63700841/181457958-c0d29ce7-90b8-489c-9dff-f968b962eee2.png" title="first" width="400"/>
+  <img src="https://user-images.githubusercontent.com/63700841/181458122-b4d6db9e-5293-4374-bcc8-801cd7a96a59.png" titlw="second" width="400" />
+
+
+</p>
+
 
 # With this app you can do –
 
-1. Real time control over the Time Limit of Flashlight
-2. An approach to generate Auto Flash with Phone Censor
-3. Relief from the Darkness while Connecting through the application
+<li>Real time control over the Time Limit of Flashlight</li>
+<li>An approach to generate Auto Flash with Phone Censor</li>
+<li>Relief from the Darkness while Connecting through the application</li>
 
 
 
@@ -29,10 +43,10 @@ Yes there is indeed an extra feature while working in your home or office, you m
 # Note
 Some device may face difficulty to install the app which's my team working on this issue But make sure your device version satisfies the app criteria
 
-# Check Out
-https://play.google.com/store/apps/details?id=com.teamaspirant.autoflash
+# Play Store - Link
+[Check Out Here](https://play.google.com/store/apps/details?id=com.teamaspirant.autoflash)
+:-------------------------:|
 
-Thank You
 
 
 
